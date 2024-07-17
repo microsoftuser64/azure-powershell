@@ -19,6 +19,8 @@
 -->
 
 ## Upcoming Release
+
+## Version 3.0.3
 * Removed the informational table about selected context to avoid duplication with output table.
 
 ## Version 3.0.2

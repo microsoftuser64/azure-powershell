@@ -1,3 +1,20 @@
+## 12.2.0 - August 2024
+#### Az.Compute 8.2.0 
+* Modified cmdlet `New-AzRestorePointCollection`
+   - Removed parameter `-VmId`
+   - Added parameter `-SourceId`
+#### Az.RedisCache 1.10.0 
+* Modified cmdlet `New-AzRedisCache`
+   - Added parameter `-DisableAccessKeyAuthentication`
+* Modified cmdlet `Set-AzRedisCache`
+   - Added parameter `-DisableAccessKeyAuthentication`
+#### Az.Sql 5.2.0 
+* Modified cmdlet `New-AzSqlInstance`
+   - Added parameters `-IsGeneralPurposeV2`, `-StorageIOps`
+* Modified cmdlet `Set-AzSqlInstance`
+   - Added parameters `-IsGeneralPurposeV2`, `-StorageIOps`
+* Added cmdlet `Set-AzSqlDatabaseReplicationLink`
+
 ## 12.1.0 - July 2024
 #### Az.Compute 8.1.0 
 * Modified cmdlet `Add-AzVMDataDisk`
@@ -877,6 +894,7 @@
    - Changed the type of parameter `-Status` from `Status` to `String`
    - Output type changed from ``PSSupportTicket`` to ``ISupportTicketDetails``
 * Added cmdlet `Get-AzSupportChatTranscript`, `Get-AzSupportChatTranscriptsNoSubscription`, `Get-AzSupportCommunication`, `Get-AzSupportCommunicationsNoSubscription`, `Get-AzSupportFile`, `Get-AzSupportFilesNoSubscription`, `Get-AzSupportFileWorkspace`, `Get-AzSupportFileWorkspacesNoSubscription`, `Get-AzSupportOperation`, `Get-AzSupportTicketsNoSubscription`, `New-AzSupportCommunication`, `New-AzSupportCommunicationsNoSubscription`, `New-AzSupportFileAndUpload`, `New-AzSupportFileAndUploadNoSubscription`, `New-AzSupportFileWorkspace`, `New-AzSupportFileWorkspacesNoSubscription`, `New-AzSupportTicketsNoSubscription`, `Test-AzSupportCommunicationNameAvailability`, `Test-AzSupportCommunicationsNoSubscriptionNameAvailability`, `Test-AzSupportTicketNameAvailability`, `Test-AzSupportTicketsNoSubscriptionNameAvailability`, `Update-AzSupportTicketsNoSubscription`
+
 
 
 

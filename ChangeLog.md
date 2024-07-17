@@ -1,3 +1,47 @@
+## 12.2.0 - August 2024
+#### Az.Accounts 3.0.3
+* Removed the informational table about selected context to avoid duplication with output table.
+
+#### Az.Aks 6.0.4
+* Fixed secrets exposure in example documentation
+
+#### Az.AppConfiguration 1.3.2
+* Fixed secrets exposure in example documentation
+
+#### Az.Cdn 3.2.1
+* Bypassed object id validation for KeyVault access policy during 'Start-AzFrontDoorCdnProfilePrepareMigration'
+
+#### Az.Compute 8.2.0
+* Renamed parameter '-VmId' to '-SourceId' and added '-VmId' as an alias to 'New-AzRestorePointCollection' cmdlet.
+
+#### Az.DevCenter 1.1.2
+* Fixed secrets exposure in example documentation
+
+#### Az.NetworkCloud 1.0.2
+* Fixed secrets exposure in example documentation
+
+#### Az.NotificationHubs 1.1.3
+* Fixed secrets exposure in example documentation
+
+#### Az.RedisCache 1.10.0
+* Added support for Disabling Access Keys Authentication
+
+#### Az.SignalR 2.0.2
+* Fixed secrets exposure in example documentation
+
+#### Az.Sql 5.2.0
+* Added 'IsGeneralPurposeV2' and 'StorageIOps' parameters to 'New-AzSqlInstance', 'Set-AzSqlInstance' to enable the creation of GPv2 instances
+* Added IsGeneralPurposeV2 and StorageIOps fields to the model of the managed instance so that it displays information about GPv2 instances that are returned by 'Get-AzSqlInstance'.
+* Added new cmdlet 'Set-AzSqlDatabaseReplicationLink' for updating replication link type
+* Updated 'Get-AzSqlDatabaseReplicationLink' to use the new sdk
+
+#### Az.Storage 7.2.0
+* Upgraded Microsoft.Azure.Storage.DataMovement to 2.0.5
+
+#### Az.StorageSync 2.2.0
+* Onboarded Service Api version 2022-09-01
+* Enabled ManagedIdentity Feature (Preview)
+
 ## 12.1.0 - July 2024
 #### Az.Accounts 3.0.1
 * Disable WAM when the customers login with device code flow or username password (ROPC) flow to prevent a potential issue with token cache.

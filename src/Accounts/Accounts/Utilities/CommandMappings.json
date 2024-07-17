@@ -1012,6 +1012,7 @@
     "Az.CodeSigning": {
       "Get-AzCodeSigningCustomerEku": {},
       "Get-AzCodeSigningRootCert": {},
+      "Get-AzCodeSigningCertChain": {},
       "Invoke-AzCodeSigningCIPolicySigning": {}
     },
     "Az.CognitiveServices": {
@@ -3126,6 +3127,21 @@
       "New-AzImportExportDriveListObject": {},
       "Remove-AzImportExport": {},
       "Update-AzImportExport": {}
+    },
+    "Az.Informatica": {
+      "Get-AzInformaticaOrganization": {},
+      "Get-AzInformaticaOrganizationServerlessMetadata": {},
+      "Get-AzInformaticaOrganizationServerlessRuntime": {},
+      "Get-AzInformaticaServerlessRuntime": {},
+      "Invoke-AzInformaticaServerlessRuntimeResource": {},
+      "New-AzInformaticaOrganization": {},
+      "New-AzInformaticaServerlessRuntime": {},
+      "Remove-AzInformaticaOrganization": {},
+      "Remove-AzInformaticaServerlessRuntime": {},
+      "Start-AzInformaticaServerlessRuntimeFailedServerlessRuntime": {},
+      "Test-AzInformaticaServerlessRuntimeDependency": {},
+      "Update-AzInformaticaOrganization": {},
+      "Update-AzInformaticaServerlessRuntime": {}
     },
     "Az.IotCentral": {
       "Get-AzIotCentralApp": {},
@@ -6859,6 +6875,7 @@
       "Get-AzSqlDatabaseRecommendedAction": {},
       "Get-AzSqlDatabaseReplicationLink": {},
       "Get-AzSqlDatabaseRestorePoint": {},
+      "Set-AzSqlDatabaseReplicationLink": {},
       "Get-AzSqlDatabaseSensitivityClassification": {},
       "Get-AzSqlDatabaseSensitivityRecommendation": {},
       "Get-AzSqlDatabaseTransparentDataEncryption": {},
@@ -7503,10 +7520,15 @@
       "Remove-AzStorageSyncCloudEndpoint": {},
       "Remove-AzStorageSyncGroup": {},
       "Remove-AzStorageSyncServerEndpoint": {},
+      "Remove-AzStorageSyncServerEndpointPermission": {},
       "Remove-AzStorageSyncService": {},
       "Reset-AzStorageSyncServerCertificate": {},
+      "Set-AzStorageSyncCloudEndpointPermission": {},
+      "Set-AzStorageSyncServer": {},
       "Set-AzStorageSyncServerEndpoint": {},
+      "Set-AzStorageSyncServerEndpointPermission": {},
       "Set-AzStorageSyncService": {},
+      "Set-AzStorageSyncServiceIdentity": {},
       "Unregister-AzStorageSyncServer": {}
     },
     "Az.StreamAnalytics": {
